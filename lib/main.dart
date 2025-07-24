@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:spending_tracker/screens/dashboard/dashboard_screen.dart';
-// --- 1. TAMBAHKAN IMPORT INI ---
 import 'package:intl/date_symbol_data_local.dart';
 
-// --- 2. UBAH main() MENJADI async DAN TAMBAHKAN KODE INISIALISASI ---
 void main() async {
   // Baris ini wajib ada di main() yang async
   WidgetsFlutterBinding.ensureInitialized(); 

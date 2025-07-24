@@ -124,7 +124,7 @@ class _TransactionFormScreenState extends State<TransactionFormScreen> {
                 border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(12))),
                 prefixText: 'Rp ',
               ),
-              // --- MODIFIKASI HANYA DI BAGIAN VALIDATOR INI ---
+              
               validator: (value) {
                 // 1. Cek jika kosong
                 if (value == null || value.isEmpty) {
@@ -145,7 +145,7 @@ class _TransactionFormScreenState extends State<TransactionFormScreen> {
             ),
             const SizedBox(height: 20),
 
-            // Input Deskripsi (Tidak ada perubahan)
+            // Input Deskripsi 
             TextFormField(
               controller: _deskripsiController,
               textCapitalization: TextCapitalization.sentences,
@@ -160,7 +160,7 @@ class _TransactionFormScreenState extends State<TransactionFormScreen> {
             ),
             const SizedBox(height: 20),
 
-            // Input Kategori (Tidak ada perubahan)
+            // Input Kategori 
             DropdownButtonFormField<String>(
               value: _kategori,
               decoration: const InputDecoration(
@@ -192,7 +192,7 @@ class _TransactionFormScreenState extends State<TransactionFormScreen> {
             ),
             const SizedBox(height: 20),
 
-            // Input Tanggal (Tidak ada perubahan)
+            // Input Tanggal 
             TextFormField(
               controller: _tanggalController,
               readOnly: true,
@@ -211,7 +211,7 @@ class _TransactionFormScreenState extends State<TransactionFormScreen> {
             ),
             const SizedBox(height: 40),
 
-            // Tombol Simpan (Tidak ada perubahan)
+            // Tombol Simpan 
             ElevatedButton(
               onPressed: _submitForm,
               style: ElevatedButton.styleFrom(

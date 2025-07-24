@@ -17,7 +17,6 @@ class TransactionListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Mapping nama ikon dari database ke objek IconData
-    // Anda bisa melengkapi map ini sesuai kebutuhan
     const iconMap = {
       'ramen_dining': Icons.ramen_dining,
       'fastfood': Icons.fastfood,
